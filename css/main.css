@@ -1,0 +1,424 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-outer {
+  background: #dddddd;
+}
+
+.menu-outer .menu-icon .bar {
+  background: #232323;
+}
+
+.menu-outer:hover {
+  background: #030303e6;
+}
+
+.menu-outer nav {
+  height: 100%;
+  width: 50%;
+  height: 70%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-outer nav ul {
+  top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.menu-close {
+  background: #cccccc;
+}
+
+.menu-close .bar {
+  background: #232323;
+}
+
+.container {
+  left: 373px;
+  bottom: -151px;
+}
+
+.container .pagearea h1 {
+  font-size: 20px;
+  color: #b5743f;
+}
+
+.container .pagearea div ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .pagearea div ul li p {
+  margin-right: 10px;
+}
+
+.container .content-wrapper {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 106px;
+}
+
+.container .content-wrapper .intro h1 {
+  color: #b5743f;
+}
+
+.container .content-wrapper .testimonialarea .contactaddress-bubble {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 0;
+  float: left;
+}
+
+.container .content-wrapper .testimonialarea .contactaddress-bubble .contactaddress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  margin-top: 86px;
+}
+
+.container .content-wrapper .testimonialarea .contactaddress-bubble .contactaddress span {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #b5743f;
+}
+
+.container .content-wrapper .pricingbadge {
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(146, 110, 24, 0.35);
+          box-shadow: 0px 0px 8px 5px rgba(146, 110, 24, 0.35);
+}
+
+.application_bg .content-wrapper .app_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.application_bg .content-wrapper .app_wrap .application_text {
+  line-height: 2;
+}
+
+.wrapper-office {
+  width: 100%;
+}
+
+.wrapper-office .slider-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-office .slider-box .container {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.wrapper-office .slider-box .container .slides .slide .title {
+  font-family: "Great Vibes" !important;
+  color: #b5743f;
+}
+
+.wrapper-office .slider-box .container .slide-select {
+  display: none !important;
+}
+
+/* services */
+.container .logoarea .intro {
+  color: #b5743f;
+}
+
+.container .footer_box {
+  position: relative;
+}
+
+.container .footer_box::before {
+  z-index: -1;
+}
+
+.container .footer_box .content-wrapper {
+  margin-bottom: 120px;
+}
+
+/* services */
+.wrapper_example {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 0;
+}
+
+.wrapper_example .hair,
+.wrapper_example .makeup,
+.wrapper_example .brows,
+.wrapper_example .tattoo {
+  margin-top: 40px;
+}
+
+.wrapper_example .hair p,
+.wrapper_example .makeup p,
+.wrapper_example .brows p,
+.wrapper_example .tattoo p {
+  text-align: center;
+  font-size: 52px;
+  color: #b5743f;
+  margin: 44px;
+}
+
+.wrapper_example .hair ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.wrapper_example .hair ul li img {
+  margin: 20px;
+  width: 50%;
+}
+
+.wrapper_example .makeup ul,
+.wrapper_example .brows ul,
+.wrapper_example .tattoo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper_example .makeup ul li,
+.wrapper_example .brows ul li,
+.wrapper_example .tattoo ul li {
+  width: 40%;
+}
+
+.wrapper_example div ul {
+  padding: 20px;
+}
+
+.wrapper_example div ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+.wrapper_example div ul li img {
+  -webkit-box-shadow: 1px 1px 8px 6px rgba(34, 60, 80, 0.2);
+          box-shadow: 1px 1px 8px 6px rgba(34, 60, 80, 0.2);
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.nicescroll-rails div {
+  background: #b5743f !important;
+}
+
+.footer .container .pull-right .footericons a {
+  margin-left: 10px;
+}
+
+.footer .container .pull-right .footericons a span {
+  font-size: 24px;
+  color: #b5743f;
+}
+
+.footer .container .pull-right .footericons a span:hover {
+  color: #cccccc;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.footer .container .pull-right .footericons a .icon-whatsapp {
+  font-size: 28px;
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .background {
+    padding: 0;
+  }
+  .background .content-wrapper {
+    margin-bottom: 106px;
+  }
+  .background .content-wrapper .pricingbadge h4 {
+    font-size: 16px;
+  }
+  .background .content-wrapper .pricingbadge ul a {
+    margin-top: 22px;
+  }
+  .background .content-wrapper .hair_extansion h4 {
+    margin: 0;
+  }
+  .background .content-wrapper .intro {
+    margin: 0 auto;
+  }
+  .background .content-wrapper .wrapper-office {
+    width: 0;
+  }
+  .background .content-wrapper .wrapper-office .slider-box .container {
+    z-index: -1;
+  }
+  .background .content-wrapper .wrapper-office .slider-box .container ul li h1 {
+    display: none;
+  }
+  .background .content-wrapper .testimonialarea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .background .content-wrapper .testimonialarea .contactaddress-bubble {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+  }
+  .background .content-wrapper .testimonialarea .contactaddress-bubble .contactaddress {
+    margin-top: 116px;
+  }
+  .background .content-wrapper .testimonialarea .contactaddress-bubble .contactaddress span {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .menu-outer nav ul {
+    top: 25% !important;
+  }
+  .container .pagearea_mobile {
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .container .background {
+    padding: 0;
+  }
+  .container .background .content-wrapper {
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .background .content-wrapper .intro {
+    width: 100%;
+  }
+  .container .background .content-wrapper .intro h1 .small {
+    font-size: 16px;
+  }
+  .container .background .content-wrapper .about {
+    margin: 0 auto;
+  }
+  .container .background .content-wrapper .about .black {
+    width: 300px;
+    height: 300px;
+  }
+  .container .background .content-wrapper .pricingbadge h4 {
+    font-size: 16px;
+    margin-top: 21px;
+  }
+  .container .background .content-wrapper .wrapper-office {
+    width: 0;
+  }
+  .container .background .content-wrapper .wrapper-office .slider-box .container {
+    max-width: 300px;
+    max-height: 300px;
+    z-index: -1;
+  }
+  .container .background .content-wrapper .wrapper-office .slider-box .container ul li h1 span {
+    font-size: 32px;
+  }
+  .container .background .content-wrapper .testimonialarea .contactaddress-bubble {
+    float: none;
+    margin-left: 0;
+  }
+  .container .background .content-wrapper .testimonialarea .contactaddress-bubble .contactaddress span {
+    color: #eb812a;
+  }
+  .container .logoarea .intro h1 .small {
+    font-size: 16px;
+  }
+  .container .pagearea .iconstartitle {
+    top: 398px;
+  }
+  .wrapper_example .hair p {
+    font-size: 20px;
+  }
+  .wrapper_example .hair ul li img {
+    width: 37%;
+  }
+  .wrapper_example div p {
+    font-size: 22px !important;
+    margin: 0;
+  }
+  .wrapper_example .hair p,
+  .wrapper_example .makeup p,
+  .wrapper_example .brows p,
+  .wrapper_example .tattoo p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .wrapper_example .makeup ul li,
+  .wrapper_example .brows ul li,
+  .wrapper_example .tattoo ul li {
+    width: 30%;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 800px) {
+  .container .background .content-wrapper {
+    padding: 44px 0;
+  }
+  .container .background .content-wrapper .intro h1 .big {
+    font-size: 73px;
+    padding: 30px 54px;
+  }
+  .container .background .content-wrapper .intro h1 .small {
+    font-size: 32px;
+  }
+  .container .background .content-wrapper .about .black span {
+    padding: 71px;
+  }
+  .container .background .content-wrapper .pricingbadge h4 {
+    font-size: 15px;
+    margin-top: 7px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
